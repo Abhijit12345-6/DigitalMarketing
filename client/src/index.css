@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rotate-360 {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .transition-colors {
+    transition: all 0.3s ease;
+  }
+  
+  /* Ensure the footer sticks to the bottom */
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  /* Custom curve animation on hover */
+  .curve-hover {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .curve-hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: currentColor;
+    opacity: 0.1;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+  }
+  
+  .curve-hover:hover::after {
+    transform: scaleY(1);
+  }
