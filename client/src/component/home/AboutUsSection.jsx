@@ -20,7 +20,7 @@ const AboutUsSection = () => {
             About Us
           </h3>
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight mb-4">
-            Creative Digital Marketing Agency Bangalore
+            Creative Digital Marketing Agency 
           </h2>
           <p className="text-gray-600 leading-relaxed mb-2 text-justify">
             At Social Dynamics, we understand the key factors that contribute to

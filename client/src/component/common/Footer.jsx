@@ -1,7 +1,7 @@
 import React from "react";
 import { Facebook, Instagram, Twitter, Linkedin, Youtube } from "lucide-react";
 import right from "../../assets/footer3.png";
-import logo from "../../assets/logo_no_background1.png";
+import banner from "../../assets/footerBanner.png";
 
 const Footer = () => {
   const services = {
@@ -75,16 +75,18 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 mb-12">
             {/* Company info */}
             <div className="lg:col-span-4">
-              <h2 className="text-3xl font-bold mb-6 text-[#FF1850]">Social Dynamic</h2>
+              <h2 className="text-3xl font-bold mb-6 text-[#FF1850]">
+                Social Dynamic
+              </h2>
               <p className="text-gray-400 mb-6">
                 Social Dynamics embodies the key elements necessary to be a
-                leading and successful digital marketing company in Bangalore
-                and across India. With strong leadership, innovative ideas,
-                creative strategies, and a clear vision for the future, Social
-                Dynamics is committed to helping businesses thrive in the
-                digital world. Our intuitive approach and dedication set us
-                apart, making us the trusted partner for businesses looking to
-                achieve lasting success online.
+                leading and successful digital marketing company across India.
+                With strong leadership, innovative ideas, creative strategies,
+                and a clear vision for the future, Social Dynamics is committed
+                to helping businesses thrive in the digital world. Our intuitive
+                approach and dedication set us apart, making us the trusted
+                partner for businesses looking to achieve lasting success
+                online.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-white">
@@ -107,7 +109,7 @@ const Footer = () => {
 
             {/* Services in India */}
             <div className="lg:col-span-4">
-              <h3 className="text-xl font-bold mb-6">Our Services in India</h3>
+              <h3 className="text-xl font-bold mb-6">Our Services</h3>
               <div className="flex flex-wrap gap-2">
                 {services.india.map((service, index) => (
                   <a
@@ -121,22 +123,13 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Services in Bangalore */}
-            <div className="lg:col-span-4">
-              <h3 className="text-xl font-bold mb-6">
-                Our Services in Bangalore
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {services.bangalore.map((service, index) => (
-                  <a
-                    key={index}
-                    href="#"
-                    className="text-gray-400 hover:text-white after:content-['|'] after:ml-2 last:after:content-none"
-                  >
-                    {service}
-                  </a>
-                ))}
-              </div>
+            {/* Footer banner image */}
+            <div className="w-full lg:col-span-4">
+              <img
+                src={banner}
+                alt="Digital Marketing"
+                className="w-full h-auto object-cover"
+              />
             </div>
           </div>
 
@@ -144,8 +137,8 @@ const Footer = () => {
           <div className="border-t border-gray-800 pt-8 pb-4">
             <h3 className="text-xl font-bold mb-4">Office Address</h3>
             <p className="text-gray-400">
-              1/1d, 1st Cross Rd, AECS B Block, Wellington Paradise,
-              Singasandra, Bengaluru, Karnataka 560068
+              #6, Outer Ring Rd, 1st Stage, BTM Layout, Bengaluru, Karnataka
+              560068
             </p>
           </div>
 

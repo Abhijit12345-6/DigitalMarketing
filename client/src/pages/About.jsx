@@ -39,9 +39,9 @@ const About = () => {
             </h2>
             <p className="text-gray-600 leading-relaxed text-justify">
               Social Dynamics have many factors involved in becoming a strong
-              and successful digital marketing company Bangalore & India.
-              Digiency has strong leadership, innovative ideas, creative and
-              intuitive strategy and a clear vision for the future.
+              and successful digital marketing company. Social Dynamics has
+              strong leadership, innovative ideas, creative and intuitive
+              strategy and a clear vision for the future.
             </p>
 
             {/* Stats Section */}

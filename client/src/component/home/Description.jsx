@@ -13,15 +13,18 @@ const Description = () => {
         {/* Left Content */}
         <div className="md:w-1/2 text-center md:text-left space-y-4">
           <h1 className="text-4xl md:text-6xl font-bold text-[#000e2e]">
-            Best Digital Marketing <br /> Company in Globe
+            Best Digital Marketing <br /> Company
           </h1>
-          <p className="text-gray-700 text-lg">
-            Boost Your Brand with Social Dynamics' Digital Marketing Services At
-            Social Dynamics, we specialize in crafting powerful online
-            strategies that amplify your digital presence and attract more
-            customers. Let us help you transform your online footprint and
-            achieve dynamic results through our expert digital marketing
-            solutions.
+          <p className="text-gray-700 text-lg text-justify">
+            Boost Your Brand with Social Dynamics’ Expert Digital Marketing
+            Services At Social Dynamics, we are dedicated to creating impactful
+            online strategies tailored to elevate your brand’s digital presence.
+            Our expertise lies in attracting the right audience, driving
+            engagement, and delivering measurable results. Partner with us to
+            transform your online footprint, build a loyal customer base, and
+            achieve dynamic success through innovative digital marketing
+            solutions. Ready to amplify your brand? Contact Social Dynamics
+            today and let’s make your vision a reality.
           </p>
           <button className="bg-[#ff4b5c] hover:bg-[#e63946] text-white py-3 px-6 rounded-lg shadow-lg transition-all duration-300">
             Contact Now
@@ -31,11 +34,7 @@ const Description = () => {
         {/* Right Illustration */}
         <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center relative">
           {/* Character Illustration */}
-          <img
-            src={banner}
-            alt="Digital Marketing"
-            className="w-full "
-          />
+          <img src={banner} alt="Digital Marketing" className="w-full " />
 
           {/* Floating Icons */}
           <div className="absolute top-12 right-0 w-12 h-12">
