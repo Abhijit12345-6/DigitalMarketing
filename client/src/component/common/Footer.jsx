@@ -1,6 +1,6 @@
 import React from "react";
 import { Facebook, Instagram, Twitter, Linkedin, Youtube } from "lucide-react";
-import right from "../../assets/estimate-right.png";
+import right from "../../assets/footer3.png";
 import logo from "../../assets/logo_no_background1.png";
 
 const Footer = () => {
@@ -32,7 +32,7 @@ const Footer = () => {
   return (
     <footer className="relative w-full">
       {/* Top curved section with CTA */}
-      <div className="relative bg-blue-500 text-white px-20">
+      <div className="relative bg-gradient-to-r from-sky-400 to-cyan-200 text-white px-20">
         <div className="container mx-auto px-4 py-16 md:py-32">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-left max-w-xl">

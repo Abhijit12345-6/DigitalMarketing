@@ -5,7 +5,7 @@ const ContactUs = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <div
-        className="relative h-[300px] flex items-center justify-start px-8 md:px-16 bg-gradient-to-r from-cyan-500 to-blue-500"
+        className="relative h-[300px] flex items-center justify-start px-8 md:px-16 bg-gradient-to-r from-sky-400 to-cyan-200"
         // style={{
         //   background: `radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)`
         // }}

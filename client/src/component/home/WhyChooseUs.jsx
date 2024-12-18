@@ -1,5 +1,5 @@
 import React from "react";
-import digital from "../../assets/banner45.webp";
+import digital from "../../assets/choose.png";
 
 const WhyChooseUs = () => {
   return (

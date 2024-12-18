@@ -1,8 +1,8 @@
 import React from "react";
-import icon1 from "../../assets/help1.webp";
-import icon2 from "../../assets/help2.webp";
+import icon1 from "../../assets/social-media.webp";
+import icon2 from "../../assets/dms.avif";
 import icon3 from "../../assets/help3.webp";
-import icon4 from "../../assets/help4.webp";
+import icon4 from "../../assets/seo.png";
 
 const Help = () => {
   return (

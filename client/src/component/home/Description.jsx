@@ -1,13 +1,13 @@
 import React from "react";
-import banner from "../../assets/banner1.webp";
+import banner from "../../assets/welcome.png";
 
 const Description = () => {
   return (
     <div
-      className="flex items-center justify-center min-h-screen md:p-10 py-32"
-      style={{
-        background: "linear-gradient(to right, #E0FFE3, #F7EAFB)",
-      }}
+      className="flex items-center justify-center min-h-screen md:p-10 py-32 bg-gradient-to-r from-sky-400 to-cyan-200"
+      // style={{
+      //   background: "linear-gradient(to right, #E0FFE3, #F7EAFB)",
+      // }}
     >
       <div className="mx-auto px-4 flex flex-col md:flex-row items-center">
         {/* Left Content */}
@@ -34,11 +34,11 @@ const Description = () => {
           <img
             src={banner}
             alt="Digital Marketing"
-            className="w-full max-w-sm"
+            className="w-full "
           />
 
           {/* Floating Icons */}
-          <div className="absolute top-0 right-0 w-12 h-12">
+          <div className="absolute top-12 right-0 w-12 h-12">
             <img
               src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
               alt="HTML"
