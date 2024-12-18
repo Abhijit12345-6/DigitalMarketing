@@ -9,36 +9,37 @@ import icon4 from "../../assets/women2.jpg";
 
 const testimonials = [
   {
-    name: "Chandra Shekhar (CSR)",
+    name: "Michael Anderson (CSR)",
     content:
       "Social Dynamics is helping me attract new customers. They understood my business needs and delivered a website within the targeted timeframe. Their pricing is reasonable, which is perfect for growing businesses. Their quick response to any issues is impressive. Truly the best website design company in Bangalore.",
-    avatar: icon1 ,
+    avatar: icon1,
   },
   {
-    name: "Bharath N",
+    name: "James Miller",
     content:
       "The team at Social Dynamics consists of true professionals. They understood my vision and brought it to life with fantastic designs and layouts. Their communication and turnaround time were outstanding. Working with Social Dynamics was one of the smartest decisions we made for our business.",
-    avatar: icon2 ,
+    avatar: icon2,
   },
   {
-    name: "Priya Sharma",
+    name: "Emily Johnson",
     content:
       "Social Dynamics transformed our digital presence with their innovative digital marketing strategies. Our website traffic and lead conversions have significantly increased. Their expertise in SEO and social media marketing is top-notch. I highly recommend them to anyone looking to grow their business online.",
-    avatar:icon3 ,
+    avatar: icon3,
   },
   {
-    name: "Rahul Verma",
+    name: "David Thompson",
     content:
       "Partnering with Social Dynamics was a game-changer for our brand. They delivered a beautiful and functional website and implemented a marketing strategy that drove results. Their dedication, creativity, and customer service set them apart from other agencies.",
-    avatar:icon1 ,
+    avatar: icon1,
   },
   {
-    name: "Ananya Patel",
+    name: "Sophia Martinez",
     content:
       "The team at Social Dynamics provided us with an incredible website and a clear digital marketing roadmap. Their attention to detail and understanding of our industry helped us achieve our business goals faster. I’m extremely satisfied with their service!",
     avatar: icon4,
   },
 ];
+
 
 const Testimonial = () => {
   const settings = {
