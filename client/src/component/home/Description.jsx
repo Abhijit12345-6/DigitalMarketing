@@ -1,7 +1,9 @@
 import React from "react";
 import banner from "../../assets/welcome.png";
+import { useNavigate } from "react-router-dom";
 
 const Description = () => {
+  const navigate = useNavigate();
   return (
     <div
       className="flex items-center justify-center min-h-screen md:p-10 py-32 bg-gradient-to-r from-sky-400 to-cyan-200"
@@ -26,7 +28,10 @@ const Description = () => {
             solutions. Ready to amplify your brand? Contact Social Dynamics
             today and let’s make your vision a reality.
           </p>
-          <button className="bg-[#ff4b5c] hover:bg-[#e63946] text-white py-3 px-6 rounded-lg shadow-lg transition-all duration-300">
+          <button
+            onClick={() => navigate("/contact")}
+            className="bg-[#ff4b5c] hover:bg-[#e63946] text-white py-3 px-6 rounded-lg shadow-lg transition-all duration-300"
+          >
             Contact Now
           </button>
         </div>

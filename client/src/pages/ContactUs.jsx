@@ -56,7 +56,7 @@ const ContactUs = () => {
                   </p> */}
                   <p className="flex items-center gap-2 text-gray-600">
                     <FaPhoneAlt className="text-green-500" />
-                    Contact Number: +91 9945719896
+                    Contact Number: +91 9591528892
                   </p>
                 </div>
 

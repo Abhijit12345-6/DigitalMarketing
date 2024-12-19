@@ -2,8 +2,11 @@ import React from "react";
 import { Facebook, Instagram, Twitter, Linkedin, Youtube } from "lucide-react";
 import right from "../../assets/footer3.png";
 import banner from "../../assets/footerBanner.png";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
   const services = {
     india: [
       "Search engine optimisation (SEO)",
@@ -40,7 +43,10 @@ const Footer = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 Need a Successful Your Project?
               </h2>
-              <button className="bg-white text-[#FF1850] px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors">
+              <button
+                onClick={() => navigate("/contact")}
+                className="bg-white text-[#FF1850] px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors"
+              >
                 Call Us
               </button>
             </div>
