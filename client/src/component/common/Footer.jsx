@@ -140,13 +140,13 @@ const Footer = () => {
           </div>
 
           {/* Address */}
-          <div className="border-t border-gray-800 pt-8 pb-4">
+          {/* <div className="border-t border-gray-800 pt-8 pb-4">
             <h3 className="text-xl font-bold mb-4">Office Address</h3>
             <p className="text-gray-400">
               #6, Outer Ring Rd, 1st Stage, BTM Layout, Bengaluru, Karnataka
               560068
             </p>
-          </div>
+          </div> */}
 
           {/* Copyright */}
           <div className="border-t border-gray-800 pt-4 mt-4">

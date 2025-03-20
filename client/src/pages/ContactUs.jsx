@@ -35,7 +35,7 @@ const ContactUs = () => {
               {/* India Office */}
               <div className="space-y-8 text-center md:text-left">
                 <div>
-                  <h3 className="text-xl font-bold text-[#001f54] mb-4 flex items-center gap-2">
+                  {/* <h3 className="text-xl font-bold text-[#001f54] mb-4 flex items-center gap-2">
                     <img src={ind} alt="India Flag" className="w-7 h-7" />
                     Address 1
                   </h3>
@@ -43,7 +43,7 @@ const ContactUs = () => {
                     <FaMapMarkerAlt className="text-red-500" size={20} />
                     #6, Outer Ring Rd, 1st Stage, BTM Layout, Bengaluru,
                     Karnataka 560068
-                  </p>
+                  </p> */}
                   {/* <p className="flex items-center gap-2 text-gray-600">
                     <FaEnvelope className="text-blue-500" />
                     Email:{" "}
@@ -54,10 +54,10 @@ const ContactUs = () => {
                       info@globalautoexperts.com
                     </a>
                   </p> */}
-                  <p className="flex items-center gap-2 text-gray-600">
+                  {/* <p className="flex items-center gap-2 text-gray-600">
                     <FaPhoneAlt className="text-green-500" />
                     Contact Number: +91 9591528892
-                  </p>
+                  </p> */}
                 </div>
 
                 {/* Additional India Office */}
@@ -98,14 +98,14 @@ const ContactUs = () => {
               {/* USA Office */}
               <div className="space-y-8 text-center md:text-left">
                 <div>
-                  <h3 className="text-xl font-bold text-[#001f54] mb-4 flex items-center gap-2">
+                  {/* <h3 className="text-xl font-bold text-[#001f54] mb-4 flex items-center gap-2">
                     <img src={usa} alt="USA Flag" className="w-7 h-7" />
                     Address 2
                   </h3>
                   <p className="flex items-start gap-2 text-gray-600">
                     <FaMapMarkerAlt className="text-red-500" size={20} />
                     30 S 15th St Ste 1550 Num 173221, Philadelphia, PA 19102
-                  </p>
+                  </p> */}
                   {/* <p className="flex items-center gap-2 text-gray-600">
                     <FaEnvelope className="text-blue-500" />
                     Email:{" "}
@@ -116,10 +116,10 @@ const ContactUs = () => {
                       info@globalautoexperts.us
                     </a>
                   </p> */}
-                  <p className="flex items-center gap-2 text-gray-600">
+                  {/* <p className="flex items-center gap-2 text-gray-600">
                     <FaPhoneAlt className="text-green-500" />
                     Contact Number: +1 888-711-6990
-                  </p>
+                  </p> */}
                 </div>
 
                 {/* Social Media Links */}
